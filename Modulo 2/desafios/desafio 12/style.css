@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte-titulo: "Passion One", sans-serif;
+    --fonte-paragrafos: "Sriracha", cursive;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+h1 {
+    font-family: var(--fonte-titulo);
+    color: white;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-small;
+}
+
+#base1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+    width: 190px;
+    font-family: var(--fonte-paragrafos);
+    font-weight: normal;
+    line-height: 2;
+
+}
+
+.container {
+    background-image: url(imagens/background001.jpg);
+    text-align: center;
+}
