@@ -44,7 +44,7 @@ function handleOptionClick(event) {
 
         console.log(finalResult)
 
-        resultText.innerHTML = 'X ganhou'
+        resultText.innerHTML = userValue === computerValue ? 'Empate!' : finalResult + 'Ganhou!!'
         
     }, 2000);
 }
