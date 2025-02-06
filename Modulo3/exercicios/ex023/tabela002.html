@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: chocolate;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            background-color: lightgrey;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            background-color: white;
+        }
+        thead {
+            background-color: rgb(71, 71, 71);
+            color: white;
+        }
+
+        th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!--
+        Anatomia para tabelas
+
+        Table
+            thead
+                tr, td th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th    
+    
+    -->
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21.168.769</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21.168.769</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21.168.769</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+
+    </table>
+
+
+</body>
+</html>
